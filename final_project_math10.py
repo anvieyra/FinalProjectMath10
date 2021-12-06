@@ -37,7 +37,7 @@ if st.button('Our Dataset'):
     
 #*****************************************************************************
 #removing unnecessary columns
-df = pd.read_csv(r"C:\Users\AViey\OneDrive\Documents\College\UCI\Math 10 intro to data analysis\FinalProject\marketing_campaign1.txt",
+df = pd.read_csv(r"marketing_campaign1.txt",
                  sep='\t')
 df = df.iloc[:,3:20]
 df2 = df.drop(columns=['Kidhome', 'Teenhome', 'Dt_Customer', 'Marital_Status', 'NumDealsPurchases', 
