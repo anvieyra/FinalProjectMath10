@@ -21,7 +21,6 @@ if st.button('Contents'):
     st.write('Conclusion')
     
 if st.button('Purpose'):
-#st.header('Purpose')
     st.write('Hello Everyone!\n\n In this program, I will be using a linear'
              ' regression model to help try and predict what the income of'
         ' a customer might have be based on a set of grocery purchases')
