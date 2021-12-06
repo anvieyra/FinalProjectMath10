@@ -7,8 +7,9 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LinearRegression
 from PIL import Image
 
-image = Image.open(r"C:\Users\AViey\OneDrive\Documents\College\UCI\Math 10 intro to data analysis\FinalProject\Customer-Analysis-1.jpg")
-st.image(image, caption='Is what we earn what we consume?')
+#couldn't get the below to upload properly hence commented out
+#image = Image.open(r"C:\Users\AViey\OneDrive\Documents\College\UCI\Math 10 intro to data analysis\FinalProject\Customer-Analysis-1.jpg")
+#st.image(image, caption='Is what we earn what we consume?')
 
 title = st.title("Predicting Customer Income")
 st.markdown("[Alfonso Vieyra's Github](https://github.com/anvieyra/FinalProjectMath10)")
