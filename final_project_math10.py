@@ -31,7 +31,7 @@ if st.button('Our Dataset'):
         ' for our linear regression model')
     #image1 = Image.open(r"C:\Users\AViey\OneDrive\Documents\College\UCI\Math 10 intro to data analysis\FinalProject\MarketCampaignPic.PNG")
     st.markdown('[Kaggle Market Campaign Dataset](https://www.kaggle.com/imakash3011/customer-personality-analysis)')
-    st.image(image1, caption= 'Source')
+    #st.image(image1, caption= 'Source')
     st.write("There are numerous columns we will remove prior to assessing bad values etc.")
     
 #*****************************************************************************
