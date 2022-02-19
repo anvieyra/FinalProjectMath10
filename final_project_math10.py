@@ -14,14 +14,14 @@ from PIL import Image
 title = st.title("Predicting Customer Income")
 st.markdown("[Alfonso Vieyra's Github](https://github.com/anvieyra/FinalProjectMath10)")
 if st.button('Contents'):
-    st.write('Purpose - goal of analysis\n')
-    st.write('Chosen Dataset\n')
-    st.write('Cleaning the Data')
-    st.write('Deploying Machine Learning Model')
-    st.write('Conclusion')
+    st.text('Purpose - goal of analysis\n')
+    st.text('Chosen Dataset\n')
+    st.text('Cleaning the Data')
+    st.text('Deploying Machine Learning Model')
+    st.text('Conclusion')
     
 if st.button('Purpose'):
-    st.write('Hello Everyone!\n\n In this program, I will be using a linear'
+    st.text('Hello Everyone!\n\n In this program, I will be using a linear'
              ' regression model to help try and predict what the income of'
         ' a customer might have be based on a set of grocery purchases')
  
